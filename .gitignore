@@ -1,0 +1,36 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+
+# Ignore all logfiles and tempfiles.
+/log
+/tmp
+
+# Ignore temp and trash files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore publics and uploads
+/public/uploads
+/public/system
+
+# Ignore ruby version manager settings files
+.rvmrc
+.ruby-gemset
+.ruby-version
+
+# Ignore IDE settings
+.idea/
+
+# Ignore admin files
+/admin_files
+
+# Ignore .env
+.env
