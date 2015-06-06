@@ -9,6 +9,7 @@ gem 'jbuilder'
 gem 'bcrypt'
 gem 'whenever'
 gem 'carrierwave'
+gem 'faker'
 
 group :development, :test do
   gem 'sqlite3'
