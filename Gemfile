@@ -10,10 +10,11 @@ gem 'bcrypt'
 gem 'whenever'
 gem 'carrierwave'
 gem 'faker'
+gem 'pg'
 
-group :development, :test do
-  gem 'sqlite3'
-end
+# group :development, :test do
+#   gem 'sqlite3'
+# end
 
 group :test do
   gem 'rspec-rails'
@@ -30,5 +31,5 @@ end
 
 group :production do
   gem 'therubyracer',  platforms: :ruby
-  gem 'pg'
+
 end
