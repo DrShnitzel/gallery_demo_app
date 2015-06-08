@@ -183,5 +183,6 @@ GET /api/users/:user_id/media_data
             "url": "http://daugherty.name/alysha_kuhn",
             "file": "/uploads/development/media_datum/file/3824/file"
         }
+    ]
 }
 ```
