@@ -156,7 +156,7 @@ POST /api/users/media_data
 Вернет ошибку пользователям с некорректным токеном. В случае успеха вернет коллекцию медиа данных пользователя.
 
 ```
-POST /api/users/:user_id/media_data
+GET /api/users/:user_id/media_data
 ```
 
 Параметры:
@@ -184,5 +184,4 @@ POST /api/users/:user_id/media_data
             "file": "/uploads/development/media_datum/file/3824/file"
         }
 }
-
 ```
