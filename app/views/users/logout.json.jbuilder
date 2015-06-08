@@ -1,1 +1,1 @@
-json.partial! 'users/ok'
+json.partial! '/ok'

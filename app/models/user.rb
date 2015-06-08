@@ -13,6 +13,8 @@ class User < ActiveRecord::Base
               message: 'is not an email' },
             strict: true
 
+  has_many :media_data, dependent: :destroy
+
   def self.registration(email, password)
     user = User.new(email: email)
     user.update_password(password)
