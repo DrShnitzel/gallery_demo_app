@@ -184,5 +184,4 @@ POST /api/users/:user_id/media_data
             "file": "/uploads/development/media_datum/file/3824/file"
         }
 }
-
 ```
