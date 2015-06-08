@@ -1,3 +1,5 @@
+# I use pg in development because
+# I need more relevant explain() to optimize queries
 development:
   url: postgresql://localhost/gallerey_demo_app_development
 

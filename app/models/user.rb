@@ -42,6 +42,9 @@ class User < ActiveRecord::Base
   private
 
   def generate_token
+    # You do not need to check uuid uniqueness because
+    # probability that it is unique is sufficient. More likely
+    # all computers will stop working tomorrow.
     self.token = SecureRandom.uuid
   end
 
